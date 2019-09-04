@@ -1,6 +1,6 @@
 {
   "convertable" : false,
-  "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/gluster_cluster/master/replication-logic.jps", 
+  "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/gluster_cluster/master/replication-logic_test.jps", 
   "defaultState": false,
   "nodeGroupData": {
     "skipNodeEmails": true,
