@@ -1,6 +1,9 @@
 {
   "convertable" : false,
-  "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/glusterfs/master/replication-logic.jps", 
+  "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/glusterfs/master/replication-logic.jps",
+  "hooks": {
+    "onAfterCreateNodes": "https://raw.githubusercontent.com/SiryjVyiko/glusterfs/master/replication-logic.jps"   
+  },
   "defaultState": false,
   "nodeGroupData": {
     "skipNodeEmails": true,
@@ -17,6 +20,7 @@
     "type": ["vz7"]
   },
   "settings": {
-      "replicatedPath": "/data"
+      "replicatedPath": "/data",
+      "replicatedVolume": "data"
   }  
 }
